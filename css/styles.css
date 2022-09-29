@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-color: #002E34;
+    font-family: 'Inter', arial, sans-serif;
+}
+/* Navbar */
+.customNavbar {
+    background-color: #002E34;
+    height: 100px;
+    font-size: 20px;
+    border-bottom: 4px solid #fff;
+}
+
+@media (max-width: 1200px) {
+    .navbar-collapse {
+        background-color:#002E34;
+        text-align: center;
+        line-height: 24px;
+        border-bottom: 4px solid #efefef;
+        top: 8px
+    }
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #efefef;
+}
+
+.navbar-brand{
+    color: #fff;
+    line-height: 70px;
+    font-style: italic;
+}
+
+.navbar-brand:hover{
+    color: #efefef;
+}
+
+@media (max-width: 430px) {
+    .logo-celulares{
+        position: absolute;
+        display: none;
+        margin-left: 2.1px;
+    }
+}
+
+/* Container */
+.bg-verdeEscuro {
+    background-color:#004443;
+}
+
+.bg-verdeMaisEscuro {
+    background-color:#002E34;
+}
+
+.bg-branco{
+    background-color: #efefef;
+}
+
+.primeiraPagina {
+    margin-top: 100px;
+    padding-top: 45px;
+}
+
+.container-fluid {
+    height: 800px;
+}
+
+.container{
+    max-width: 1800px;
+    position: relative;
+    height: 80%;
+    width: 88%;
+    top: 10%;
+}
+
+
+
+
+/* CARROUSEL */
+.img-tamanho{
+    height: 600px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-inner {
+    width: 65%;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    border: 5px solid #efefef;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 430px) {
+    .carousel-inner {
+        width: 100%;
+        height: 600px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 5px;
+        border: 5px solid #efefef;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+.carousel-control-prev{
+    margin-left: 18%;
+}
+
+.carousel-control-next{
+    margin-right: 18%;
+}
+
+/*HABILIDADES*/
+.card-title{
+    font-size: 25px;
+    color: #002E34;
+    font-weight: bold;
+}
+
+.card{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+/* SOBRE */
+.customSobre {
+    font-size: 18px;
+    color: #efefef;
+}
+
+.borda{
+    border: 5px solid white;
+}
+
+.listStyle li{
+    list-style-type: none;
+}
+
+
+/* RODAPE */
+.rodape {
+    height: 50px;
+    background-color: #002E34;
+    border-top: 4px solid #efefef;
+}
+
+/* CONTATO */
+.googleImagens{
+    border: 5px solid white; 
+    width:100%;
+    height:450px;
+    border-radius: 4px;
+}
+
+.novoTamanho{
+    width: 75%;
+}
+
+.form-control {
+    width: 444px;
+}
+
+.btn {
+    width: 345px;
+    margin-left: 13%;
+}
+
+.iconesLinks:hover {
+    text-decoration: none;
+    color: #efefef;
+}
+
+@media (max-width: 810px) {
+    .googleImagens{
+        width:444px;
+    }
+    .btn {
+        width: 444px;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .icones-container{
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 430px) {
+    .googleImagens{
+        width:320px;
+    }
+    .form-control {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .novoTamanho{
+        width: 100%;
+    }
+}
+
+@media (max-width: 390px) {
+    .googleImagens{
+        width:260px;
+    }
+}
